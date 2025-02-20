@@ -1,5 +1,5 @@
 pipeline {
-    agent { dockerCointainer { image 'python:3.13.2-alpine3.21' } }
+    agent { dockerContainer { image 'python:3.13.2-alpine3.21' } }
     stages {
         stage('build') {
             steps {
